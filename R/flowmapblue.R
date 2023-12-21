@@ -8,6 +8,7 @@
 flowmapblue <- function(
   locations, flows,
   mapboxAccessToken = NULL,
+  mapboxMapStyle = NULL,
   clustering = TRUE,
   animation = FALSE,
   darkMode = FALSE
@@ -18,6 +19,7 @@ flowmapblue <- function(
     locations = locations,
     flows = flows,
     mapboxAccessToken = mapboxAccessToken,
+    mapboxMapStyle = mapboxMapStyle,
     clustering = clustering,
     animation = animation,
     darkMode = darkMode

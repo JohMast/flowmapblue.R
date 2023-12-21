@@ -16,6 +16,7 @@ HTMLWidgets.widget({
           flows: HTMLWidgets.dataframeToD3(x.flows),
           container: el,
           mapboxAccessToken: x.mapboxAccessToken,
+          mapboxMapStyle: x.mapboxMapStyle,
           clustering: x.clustering,
           animation: x.animation,
           darkMode: x.darkMode,
